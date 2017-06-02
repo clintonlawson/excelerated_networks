@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#topblock{
+	height:68px;
+	background-color:#09F;
+}
+
+#topbuttons{
+	text-align:center;
+	display:none;	
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 10px 4px 17px 0;
+  list-style: none;
+  
+}
+ul li {
+  font: bold 12px/22px sans-serif "Lao UI";
+  color:#09F;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #09F;
+  color: #fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #fff; 
+  display: block; 
+  color: #09F;
+}
+ul li ul li:hover { background: #09F; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#topbuttonscompact{
+	display:block;
+	text-align:left;
+}
+
+#contact{
+	color:#09F; 
+	text-align:center; 
+	font: bold 15px/20px sans-serif "Lao UI";
+}
+
+#maintext{
+	font: normal 12px/22px sans-serif "Lao UI";
+	color:#09F;
+	text-align:center;
+}
+
+#inverticon{
+	height:50px; 
+	width:50px; 
+	float:right;
+	margin-top:-60px;
+}
+
+#headblock{
+	background-color:#00AE16;
+	height:10px;
+}
+
+#collapse_menu{
+	background-color:transparent;
+	border:none;
+	color:#09F;
+}
+
+#collapse_menu:hover{
+	background-color:transparent;
+	border:none;
+	color:#00AE16;
+}
+
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#topblock{
+	height:68px;
+	background-color:#09F;
+}
+
+#topbuttons{
+	text-align:center;	
+	display:block;
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 10px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+ul li {
+  font: bold 12px/22px sans-serif "Lao UI";
+  color:#09F;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #09F;
+  color: #fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #09F; 
+  display: block; 
+  color: #fff;
+}
+ul li ul li:hover { background: #09F; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#topbuttonscompact{
+	display:none;
+	text-align:center;
+}
+
+#contact{
+	color:#09F; 
+	text-align:center; 
+	font: bold 24px/34px sans-serif "Lao UI";
+}
+
+#maintext{
+	font: normal 12px/22px sans-serif "Lao UI";
+	color:#09F;
+	text-align:center;
+}
+
+#inverticon{
+	height:50px; 
+	width:50px; 
+	float:left;
+	margin-top:-60px;
+}
+
+#headblock{
+	background-color:#00AE16;
+	height:10px;
+}
+
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+body {
+    background-color:white;
+}
+
+#topblock{
+	height:86px;
+	background-color:09F;
+}
+
+#topbuttons{
+	text-align:center;	
+	display:block;
+}
+
+ul {
+  text-align: left;
+  display: inline;
+  margin: 0;
+  padding: 15px 4px 17px 0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  
+}
+ul li {
+  font: bold 30px/40px sans-serif "Lao UI";
+  color:#09F;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #09F;
+  color: #fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+}
+ul li ul li:hover { background: #666; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#topbuttonscompact{
+	display:none;
+	text-align:center;
+}
+
+#contact{
+	color:#09F; 
+	text-align:center; 
+	font: bold 30px/40px sans-serif "Lao UI";
+}
+
+#maintext{
+	font: normal 20px/30px sans-serif "Lao UI";
+	color:#09F;
+	text-align:center;
+}
+
+#inverticon{
+	height:50px; 
+	width:50px; 
+	float:left;
+	margin-top:-70px;
+}
+
+#headblock{
+	background-color:#00AE16;
+	height:10px;
+}
+
+}

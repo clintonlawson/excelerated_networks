@@ -1,0 +1,133 @@
+
+    .gridContainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.36%;
+        padding-left: 1.82%;
+        padding-right: 1.82%;
+    }
+
+    body {
+        background:100% #FFFFFF no-repeat fixed;
+    }
+
+    .sections {
+        display:inline-block;
+        min-height:300px;
+        width:100%;
+        background:center;
+        position:relative;
+    }
+
+    .text{
+        font-size:20px;
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+
+    #section_1{
+        background-image: url("http://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/images/articles/mr_robot_blog_v3_final.png");
+
+    }
+
+    #section_3{
+        background-image: url("http://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/images/articles/blog_auditing_azure_with_nessus_v2_2.png");
+
+    }
+
+    #section_5{
+        background-image: url("http://www.istechpros.com/image/114878286.jpg");
+
+    }
+
+    #section_7{
+        background-image: url("http://www.parsecsystemsma.com/image/114001535.jpg");
+
+    }
+
+@media only screen and (min-width: 481px) {
+    .gridContainer {
+        width: 90.675%;
+        padding-left: 1.1625%;
+        padding-right: 1.1625%;
+    }
+
+    .sections {
+        display:inline-block;
+        min-height:400px;
+        width:100%;
+        background:center;
+        position:relative;
+    }
+
+    .text{
+        font-size:20px;
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+
+    #section_1{
+        background-image: url("http://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/images/articles/mr_robot_blog_v3_final.png");
+
+    }
+
+    #section_3{
+        background-image: url("http://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/images/articles/blog_auditing_azure_with_nessus_v2_2.png");
+
+    }
+
+    #section_5{
+        background-image: url("http://www.istechpros.com/image/114878286.jpg");
+
+    }
+
+    #section_7{
+        background-image: url("http://www.parsecsystemsma.com/image/114001535.jpg");
+
+    }
+
+}
+@media only screen and (min-width: 769px) {
+    .gridContainer {
+        width: 88.2%;
+        max-width: 1232px;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        margin: auto;
+    }
+
+    .sections {
+        display:inline-block;
+        min-height:500px;
+        width:100%;
+        background:center;
+        position:relative;
+    }
+
+    .text{
+        font-size:20px;
+        padding-top:15px;
+        padding-bottom:15px;
+    }
+
+    #section_1{
+        background-image: url("http://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/images/articles/mr_robot_blog_v3_final.png");
+
+    }
+
+    #section_3{
+        background-image: url("http://www.tenable.com/sites/drupal.dmz.tenablesecurity.com/files/images/articles/blog_auditing_azure_with_nessus_v2_2.png");
+
+    }
+
+    #section_5{
+        background-image: url("http://www.istechpros.com/image/114878286.jpg");
+
+    }
+
+    #section_7{
+        background-image: url("http://www.parsecsystemsma.com/image/114001535.jpg");
+
+    }
+
+}

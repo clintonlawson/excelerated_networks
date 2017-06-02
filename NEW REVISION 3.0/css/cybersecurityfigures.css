@@ -1,0 +1,410 @@
+img, object, embed, video {
+	max-width: 100%;
+}
+.ie6 img {
+	width:100%;
+}
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#figures_background{
+	width: 100%;
+	height: 100%;
+	top:100px;
+	position: relative;
+	background-color:#FFFFFF;
+	z-index:700;
+}
+#index_figures{
+	margin:0 auto;
+	text-align:center;
+	background-color:white;
+}
+#text_figures{
+	color:white;
+	font-size:25px;
+	white-space:normal;
+	background-color:#005c9a;
+	margin-top:0px;
+	padding-top:10px;
+	padding-bottom:25px;
+}
+
+.image_figures_class{
+
+	display:inline-block;
+	letter-spacing:normal;
+	word-spacing:normal;
+	white-space:nowrap;
+	margin-top:0px;
+	margin-bottom:0px;
+	height:300px;
+	width:100%;
+	-webkit-appearance:none;
+	border-radius:1px;
+	background: transparent center;
+	background-size:cover;
+}
+
+.expand_1,
+.expand_2,
+.expand_3,
+.expand_4,
+.expand_5,
+.expand_6,
+.expand_7,
+.expand_8,
+.expand_9,
+.expand_10,
+.expand_11,
+.expand_12
+{
+
+	margin-top:-70px;
+	height:30px;
+	width:30px;
+}
+
+#image_figures_1{
+
+	background-image:url(../image/cybersecurity/1.png);
+
+}
+#image_figures_2{
+
+	background-image:url(../image/cybersecurity/2.png);
+
+}
+#image_figures_3{
+
+	background-image:url(../image/cybersecurity/3.png);
+
+}
+#image_figures_4{
+
+	background-image:url(../image/cybersecurity/4.png);
+
+}
+#image_figures_5{
+
+	background-image:url(../image/cybersecurity/5.png);
+
+}
+#image_figures_6{
+
+	background-image:url(../image/cybersecurity/6.png);
+
+}
+#image_figures_7{
+
+	background-image:url(../image/cybersecurity/7.png);
+
+}
+#image_figures_8{
+
+	background-image:url(../image/cybersecurity/8.png);
+
+}
+#image_figures_9{
+
+	background-image:url(../image/cybersecurity/9.png);
+
+}
+#image_figures_10{
+
+	background-image:url(../image/cybersecurity/10.png);
+
+}
+#image_figures_11{
+
+	background-image:url(../image/cybersecurity/11.png);
+
+}
+#image_figures_12{
+
+	background-image:url(../image/cybersecurity/12.png);
+
+}
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#figures_background{
+	width: 100%;
+	height: 100%;
+	top:250px;
+	position: relative;
+	background-color:#FFFFFF;
+	z-index:700;
+}
+#index_figures{
+	margin:0 auto;
+	text-align:center;
+	background-color:#FFFFFF;
+}
+#text_figures{
+	color:white;
+	font-size:25px;
+	white-space:normal;
+	background-color:#005c9a;
+	margin-top:0px;
+	padding-top:10px;
+	padding-bottom:25px;
+}
+
+.image_figures_class {
+
+	display:inline-block;
+	letter-spacing:normal;
+	word-spacing:normal;
+	white-space:nowrap;
+	margin-top:0px;
+	margin-bottom:0px;
+	height:300px;
+	width:100%;
+	-webkit-appearance:none;
+	border-radius:1px;
+	background: transparent center;
+	background-size:cover;
+
+}
+
+	.expand_1,
+	.expand_2,
+	.expand_3,
+	.expand_4,
+	.expand_5,
+	.expand_6,
+	.expand_7,
+	.expand_8,
+	.expand_9,
+	.expand_10,
+	.expand_11,
+	.expand_12
+	{
+
+		margin-top:-70px;
+		height:30px;
+		width:30px;
+
+	}
+
+#image_figures_1{
+
+	background-image:url(../image/cybersecurity/1.png);
+
+}
+#image_figures_2{
+
+	background-image:url(../image/cybersecurity/2.png);
+
+}
+#image_figures_3{
+
+	background-image:url(../image/cybersecurity/3.png);
+
+}
+#image_figures_4{
+
+	background-image:url(../image/cybersecurity/4.png);
+
+}
+#image_figures_5{
+
+	background-image:url(../image/cybersecurity/5.png);
+
+}
+#image_figures_6{
+
+	background-image:url(../image/cybersecurity/6.png);
+
+}
+#image_figures_7{
+
+	background-image:url(../image/cybersecurity/7.png);
+
+}
+#image_figures_8{
+
+	background-image:url(../image/cybersecurity/8.png);
+
+}
+#image_figures_9{
+
+	background-image:url(../image/cybersecurity/9.png);
+
+}
+#image_figures_10{
+
+	background-image:url(../image/cybersecurity/10.png);
+
+}
+#image_figures_11{
+
+	background-image:url(../image/cybersecurity/11.png);
+
+}
+#image_figures_12{
+
+	background-image:url(../image/cybersecurity/12.png);
+
+}
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#figures_background{
+	width: 100%;
+	height: 100%;
+	top: 500px;
+	position: relative;
+	background-color:#FFFFFF;
+	z-index:700;
+}
+#index_figures{
+	margin:0 auto;
+	text-align:center;
+	background-color:transparent;
+
+}
+#text_figures{
+	color:white;
+	font-size:25px;
+	white-space:normal;
+	background-color:#005c9a;
+	margin-top:-50px;
+	padding-top:10px;
+	padding-bottom:25px;
+	border-top-left-radius:1px;
+	border-top-right-radius:1px;
+}
+
+.image_figures_class{
+
+		display:inline-block;
+		letter-spacing:normal;
+		word-spacing:normal;
+		white-space:nowrap;
+		margin: -10px -1px 2px -1px;
+		height:300px;
+		width:49%;
+		-webkit-appearance:none;
+		border-radius:1px;
+	    background: transparent center;
+	    background-size:cover;
+}
+
+.expand_1,
+.expand_2,
+.expand_3,
+.expand_4,
+.expand_5,
+.expand_6,
+.expand_7,
+.expand_8,
+.expand_9,
+.expand_10,
+.expand_11,
+.expand_12
+{
+
+	margin-top:-70px;
+	height:30px;
+	width:30px;
+}
+
+#image_figures_1{
+
+	background-image:url(../image/cybersecurity/1.png);
+
+}
+#image_figures_2{
+
+	background-image:url(../image/cybersecurity/2.png);
+}
+#image_figures_3{
+
+	background-image:url(../image/cybersecurity/3.png);
+
+}
+#image_figures_4{
+
+	background-image:url(../image/cybersecurity/4.png);
+
+}
+#image_figures_5{
+
+	background-image:url(../image/cybersecurity/5.png);
+
+}
+#image_figures_6{
+
+	background-image:url(../image/cybersecurity/6.png);
+
+}
+#image_figures_7{
+
+	background-image:url(../image/cybersecurity/7.png);
+
+}
+#image_figures_8{
+
+	background-image:url(../image/cybersecurity/8.png);
+
+}
+#image_figures_9{
+
+	background-image:url(../image/cybersecurity/9.png);
+
+}
+#image_figures_10{
+
+	background-image:url(../image/cybersecurity/10.png);
+
+}
+#image_figures_11{
+
+	background-image:url(../image/cybersecurity/11.png);
+
+}
+#image_figures_12{
+
+	background-image:url(../image/cybersecurity/12.png);
+
+}
+
+}

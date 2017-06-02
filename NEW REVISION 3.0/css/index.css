@@ -1,0 +1,94 @@
+
+.gridContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 87.36%;
+    padding-left: 1.82%;
+    padding-right: 1.82%;
+}
+#menu{
+    width:100%;
+    position:fixed;
+    z-index:9999;
+}
+#section_1{
+    width:100%;
+    height:100%;
+    position: fixed;
+    z-index:-999;
+    background-color:#005c9a;
+}
+#logo{
+
+    text-align: center;
+    display: inline-block;
+    height:100%;
+    width:100%;
+    margin-top:35px;
+}
+
+body {
+    background-image: url("../image/data_room.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media only screen and (min-width: 481px) {
+    .gridContainer {
+        width: 90.675%;
+        padding-left: 1.1625%;
+        padding-right: 1.1625%;
+    }
+    #menu {
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+    }
+    #section_1 {
+        width:100%;
+        height:100%;
+        position: fixed;
+        background: transparent;
+        z-index:-999;
+    }
+    #logo {
+
+        text-align: center;
+        display: inline-block;
+        height:100%;
+        width:100%;
+        margin-top:50px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .gridContainer {
+        width: 88.2%;
+        max-width: 1232px;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        margin: auto;
+    }
+    #menu {
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+    }
+    #section_1 {
+        width:100%;
+        max-height:500px;
+        position: fixed;
+        background: transparent;
+        z-index:-999;
+    }
+    #logo {
+
+        text-align: center;
+        display: inline-block;
+        height:100%;
+        width:100%;
+        margin-top:50px;
+    }
+
+
+}
